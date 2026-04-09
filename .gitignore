@@ -1,0 +1,22 @@
+# 🔐 Secrets & sensitive files
+*.env
+.env
+
+# 📄 CSV files
+*.csv
+
+# 🐍 Virtual Environment
+myenv/
+venv/
+.venv/
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+
+# 📝 Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
