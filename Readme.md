@@ -39,7 +39,7 @@ This project provides a **hybrid approach** combining proactive real-time sync w
 Captures parameter changes (Create / Update / Delete) in production, triggered automatically through the event pipeline:
 
 - Amazon **EventBridge** detects SSM parameter change events
-- Triggers an **AWS Lambda** function (`Lambda.py`)
+- Triggers an **AWS Lambda** function (`Lambda.py`) 
 - Automatically:
   - Transforms parameter paths &nbsp;`/cln/prod/*` → `/cln/dr/*`
   - Applies environment-specific value updates
